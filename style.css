@@ -1,45 +1,97 @@
 html , body{
     padding: 0;
     margin: 0;
-    background: linear-gradient(to left, #ffffff, #0c3875);
+    background: linear-gradient(to right, #3153da, #ddffc9);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
-
-
+#L{
+    display: flex;
+    color: #ffffff18;
+    font-size: 38rem;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translate(-50%,-50%);
+    opacity: 100%;
+    justify-content: center;
+    align-items: center;    
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #L {
+    animation: fadeIn 2s ease-in-out; /* Adjust duration and timing function as needed */
+  }
 #headline{
-    background-color: #003074;
+    background-color: linear-gradient(to left, #3153da, #ddffc9);
     display: flex;
     color: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
     font-family: "Niconne", cursive;
     font-weight: 700;
-    font-size: x-large;
+    font-size: large;
     height: 3rem;
+    margin: 1%;
+    box-sizing: border-box;
 }
 #r{
     background-color: navy;
 }
+#r:hover{
+        background-color: rgb(0, 0, 255);
+        transition: background-color 0.5s ease;
+
+}
 #p{
     background-color: #83b3e9;
     color: black;
+}
+#p:hover{
+    background-color: #0077ff;
+    color: white;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
 
 }
 #d{
     background-color: #e86243;
         color: black;
-
+}
+#d:hover{
+    background-color: #ec431d;
+    color: white;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
 }
 #m{
     background-color: #e9919c;
         color: black;
-
+}
+#m:hover{
+    background-color: #ed4155;
+    color: white;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
 }
 #s{
     background-color: #a785eb;
         color: black;
 
+}
+#s:hover{
+    background-color: #7c48e4;
+    color: white;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
 }
 .dropdown{
     display: flex;
@@ -52,8 +104,9 @@ html , body{
     align-items: center;
     list-style: none;
     /* background-color: red; */
-    height: 60%;
-    margin-top: 4%;
+    height: 55%;
+    width: max-content;
+    margin-top: 3%;
     
 }
 .dropdown ul li{
@@ -70,7 +123,7 @@ html , body{
 .dropdown ul li a{
     color: white;
     /* background-color: navy; */
-    font-size: larger;
+    font-size: x-large;
     padding: 5%;
     text-decoration: none;
     width: 100%;
@@ -82,8 +135,7 @@ html , body{
 .dropdown ul li:hover .rdrop ul{
     display: block;
     width: 100%;
-    animation-name: fadeOut;
-    animation-duration: 0.3s; 
+   
 }
 
 @keyframes fadeIn {
@@ -112,11 +164,14 @@ html , body{
     background-color: navy;
     font-size: medium;
 }
+.rdrop ul li a:hover{
+    background-color: rgb(2, 2, 233);
+    transition: background-color 0.5s ease;
+}
 .rdrop ul li:hover .bdrop ul li{  
     display: block;
     width: 50%;
-    animation-name: fadeOut;
-    animation-duration: 0.3s;
+    
 }
 .bdrop ul{
     display: block;
@@ -176,6 +231,13 @@ html , body{
     background-color: #83b3e9;
     font-size: medium;
 }
+.pdrop ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: #0077ff;
+    font-size: medium;
+    transition: color 0.5s ease;
+
+}
 .dropdown ul li:hover .ddrop ul{
     display: block;
     width: 100%;
@@ -190,6 +252,12 @@ html , body{
     color: black;
     background-color: #e86243;
     font-size: medium;
+}
+.ddrop ul li a:hover{
+    background-color: #ec431d;
+    color: white;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
 }
 .dropdown ul li:hover .mdrop ul{
     display: block;
@@ -207,6 +275,12 @@ html , body{
     background-color: #e9919c;
     font-size: medium;
 }
+.mdrop ul li a:hover {
+    background-color: #ed4155;
+    color: white;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+}
 .dropdown ul li:hover .sdrop ul{
     display: block;
     width: 100%;
@@ -221,4 +295,311 @@ html , body{
     color: black;
     background-color: #a785eb;
     font-size: medium;
+}
+.sdrop ul li a:hover{
+    background-color: #7c48e4;
+    color: white;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease
+}
+
+@media(max-width:600px){
+    #L{
+        display: flex;
+        color: #ffffff18;
+        font-size: 38rem;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        transform: translate(-50%,-50%);
+        opacity: 100%;
+        justify-content: center;
+        align-items: center;    
+    }
+    @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      
+      #L {
+        animation: fadeIn 2s ease-in-out; /* Adjust duration and timing function as needed */
+      }
+    #headline{
+        background-color: linear-gradient(to left, #3153da, #ddffc9);
+        display: flex;
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+        font-family: "Niconne", cursive;
+        font-weight: 700;
+        font-size: large;
+        height: 3rem;
+        margin: 1%;
+        box-sizing: border-box;
+    }
+    #r{
+        background-color: navy;
+    }
+    #r:hover{
+            background-color: rgb(0, 0, 255);
+            transition: background-color 0.5s ease;
+    
+    }
+    #p{
+        background-color: #83b3e9;
+        color: black;
+    }
+    #p:hover{
+        background-color: #0077ff;
+        color: white;
+        transition: background-color 0.5s ease;
+        transition: color 0.5s ease;
+    
+    }
+    #d{
+        background-color: #e86243;
+            color: black;
+    }
+    #d:hover{
+        background-color: #ec431d;
+        color: white;
+        transition: background-color 0.5s ease;
+        transition: color 0.5s ease;
+    }
+    #m{
+        background-color: #e9919c;
+            color: black;
+    }
+    #m:hover{
+        background-color: #ed4155;
+        color: white;
+        transition: background-color 0.5s ease;
+        transition: color 0.5s ease;
+    }
+    #s{
+        background-color: #a785eb;
+            color: black;
+    
+    }
+    #s:hover{
+        background-color: #7c48e4;
+        color: white;
+        transition: background-color 0.5s ease;
+        transition: color 0.5s ease;
+    }
+    .dropdown{
+        display: flex;
+        top: 0;
+    }
+    .dropdown ul{
+        position: absolute;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        /* background-color: red; */
+        height: 55%;
+        width: max-content;
+        margin-top: 3%;
+        
+    }
+    .dropdown ul li{
+        display: flex;
+        /* margin: 15%; */
+        /* background-color: yellow; */
+        width: 100%;
+        height: 20%;
+        justify-content: center;
+        align-items: center;
+        font-weight: 800;
+    
+    }
+    .dropdown ul li a{
+        color: white;
+        /* background-color: navy; */
+        font-size: medium;
+        padding: 5%;
+        text-decoration: none;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        
+        
+    }
+    .dropdown ul li:hover .rdrop ul{
+        display: block;
+        width: 70%;
+        height: 40%;
+       
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    .rdrop ul{
+        display: none;
+        top: 0%;
+    }
+    .rdrop ul li{
+        display: flex;
+        /* margin: 15%; */
+        /* background-color: yellow; */
+        width: 100%;
+        height: 20%;
+        justify-content: center;
+        align-items: center;
+    }
+    .rdrop ul li a{
+        color: white;
+        background-color: navy;
+        font-size: small;
+    }
+    .rdrop ul li a:hover{
+        background-color: rgb(2, 2, 233);
+        transition: background-color 0.5s ease;
+    }
+    .rdrop ul li:hover .bdrop ul li{  
+        display: block;
+        width: 60%;
+        
+    }
+    .bdrop ul{
+        display: block;
+        top: 5%;
+    }
+    .bdrop ul li{
+        display: none;
+        margin-bottom: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    .bdrop ul li a{
+        color: white;
+        background-color: navy;
+        font-size: x-small;
+    }
+    .fourD{
+        display: none;
+    }
+    
+    .bdrop ul li:hover .fourD {
+        display: block;
+        position: absolute;
+        top: 70%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+    }
+    .fourD img {
+        display: none;
+    }
+    .fourD li:hover img{
+        width: 70%;
+        height: 150%;
+        position: absolute;
+        top: 20%;
+        left: -50%;
+        display: block;
+    }
+    
+    
+    .dropdown ul li:hover .pdrop ul{
+        display: block;
+        width: 100%;
+        animation-name: fadeOut;
+        animation-duration: 0.3s;
+    }
+    
+    .pdrop ul {
+        display: none;
+        top: 20%;
+        width: 100%;
+    }
+    
+    .pdrop ul li a{
+        color: black;
+        background-color: #83b3e9;
+        font-size: medium;
+    }
+    .pdrop ul li a:hover{
+        color: rgb(255, 255, 255);
+        background-color: #0077ff;
+        font-size: medium;
+        transition: color 0.5s ease;
+    
+    }
+    .dropdown ul li:hover .ddrop ul{
+        display: block;
+        width: 100%;
+    }
+    
+    .ddrop ul{
+        display: none;
+        top: 40%;
+    
+    }
+    .ddrop ul li a{
+        color: black;
+        background-color: #e86243;
+        font-size: medium;
+    }
+    .ddrop ul li a:hover{
+        background-color: #ec431d;
+        color: white;
+        transition: background-color 0.5s ease;
+        transition: color 0.5s ease;
+    }
+    .dropdown ul li:hover .mdrop ul{
+        display: block;
+        width: 100%;
+    
+    }
+    
+    .mdrop ul{
+        display: none;
+        top: 60%;
+    
+    }
+    .mdrop ul li a{
+        color: black;
+        background-color: #e9919c;
+        font-size: medium;
+    }
+    .mdrop ul li a:hover {
+        background-color: #ed4155;
+        color: white;
+        transition: background-color 0.5s ease;
+        transition: color 0.5s ease;
+    }
+    .dropdown ul li:hover .sdrop ul{
+        display: block;
+        width: 100%;
+    
+    }
+    .sdrop ul{
+        display: none;
+        top: 80%;
+    
+    }
+    .sdrop ul li a{
+        color: black;
+        background-color: #a785eb;
+        font-size: medium;
+    }
+    .sdrop ul li a:hover{
+        background-color: #7c48e4;
+        color: white;
+        transition: background-color 0.5s ease;
+        transition: color 0.5s ease
+    }
 }
