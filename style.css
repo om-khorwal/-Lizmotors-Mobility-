@@ -307,15 +307,15 @@ html , body{
     #L{
         display: flex;
         color: #ffffff18;
-        font-size: 38rem;
+        font-size: 28rem;
         position: absolute;
-        top: 0%;
-        left: 50%;
+        top: 10%;
+        left: 40%;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         opacity: 100%;
         justify-content: center;
-        align-items: center;    
+        align-items: center;
     }
     @keyframes fadeIn {
         from {
@@ -406,7 +406,7 @@ html , body{
         height: 55%;
         width: max-content;
         margin-top: 3%;
-        
+        left: 10%;
     }
     .dropdown ul li{
         display: flex;
