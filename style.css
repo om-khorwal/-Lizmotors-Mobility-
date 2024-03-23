@@ -406,7 +406,7 @@ html , body{
         /* background-color: red; */
         height: 75%;
         width: max-content;
-        margin-top: 3%;
+        margin-top: 10%;
         padding: 4%;
     }
     .dropdown ul li{
@@ -433,7 +433,7 @@ html , body{
     }
     .dropdown ul li:hover .rdrop ul{
         display: block;
-        width: 80%;
+        width: 70%;
         height: 45%;
         margin: 0%;
         padding: 5%;
@@ -463,7 +463,7 @@ html , body{
     .rdrop ul li a{
         color: white;
         background-color: navy;
-        font-size: small;
+        font-size: x-small;
     }
     .rdrop ul li a:hover{
         background-color: rgb(2, 2, 233);
@@ -471,7 +471,7 @@ html , body{
     }
     .rdrop ul li:hover .bdrop ul li{  
         display: block;
-        width: 60%;
+        width: 65%;
         
     }
     .bdrop ul{
@@ -516,7 +516,7 @@ html , body{
     
     .dropdown ul li:hover .pdrop ul{
         display: block;
-        width: 80%;
+        width: 70%;
         height: 45%;
         margin: 0%;
         padding: 10%;
@@ -530,7 +530,7 @@ html , body{
     .pdrop ul li a{
         color: black;
         background-color: #83b3e9;
-        font-size: small;
+        font-size: x-small;
     }
     .pdrop ul li a:hover{
         color: rgb(255, 255, 255);
@@ -541,7 +541,7 @@ html , body{
     }
     .dropdown ul li:hover .ddrop ul{
         display: block;
-        width: 80%;
+        width: 70%;
         height: 45%;
         margin: 0%;
         padding: 10%;
@@ -554,7 +554,7 @@ html , body{
     .ddrop ul li a{
         color: black;
         background-color: #e86243;
-        font-size: medium;
+        font-size: x-small;
     }
     .ddrop ul li a:hover{
         background-color: #ec431d;
@@ -564,7 +564,7 @@ html , body{
     }
     .dropdown ul li:hover .mdrop ul{
         display: block;
-        width: 80%;
+        width: 70%;
         height: 45%;
         margin: 0%;
         padding: 10%;
@@ -578,7 +578,7 @@ html , body{
     .mdrop ul li a{
         color: black;
         background-color: #e9919c;
-        font-size: medium;
+        font-size: x-small;
     }
     .mdrop ul li a:hover {
         background-color: #ed4155;
@@ -588,7 +588,7 @@ html , body{
     }
     .dropdown ul li:hover .sdrop ul{
         display: block;
-        width: 80%;
+        width: 70%;
         height: 45%;
         margin: 0%;
         padding: 10%;
@@ -601,7 +601,7 @@ html , body{
     .sdrop ul li a{
         color: black;
         background-color: #a785eb;
-        font-size: medium;
+        font-size: x-small;
     }
     .sdrop ul li a:hover{
         background-color: #7c48e4;
