@@ -314,8 +314,13 @@ html , body{
         overflow: hidden;
     }
     #L{
-    display: block;
-    color: #ffffff18;
+    display: flex;
+    color: #ffffff25;
+    font-size: 30rem;
+    justify-content: center;
+    align-content: center;
+    left: 40%;
+    top: 10%;
     
 }
     @keyframes fadeIn {
