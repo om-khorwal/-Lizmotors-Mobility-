@@ -432,9 +432,10 @@ html , body{
     }
     .dropdown ul li:hover .rdrop ul{
         display: block;
-        width: 70%;
-        height: 40%;
-       
+        width: 80%;
+        height: 45%;
+        margin: 0%;
+        padding: 10%;
     }
     
     @keyframes fadeIn {
@@ -503,11 +504,11 @@ html , body{
         display: none;
     }
     .fourD li:hover img{
-        width: 70%;
+        width: 80%;
         height: 150%;
         position: absolute;
         top: 20%;
-        left: -50%;
+        left: -75%;
         display: block;
     }
     
